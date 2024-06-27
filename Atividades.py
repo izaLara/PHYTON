@@ -51,3 +51,14 @@ nome3 = input("Qual seu nome? ")
 ano2 =int(input("Em que ano você nasceu? "))
 
 print(f"Olá {nome3}, você fará {2024 - ano2} anos no final de 2024")
+
+#atividade 8
+
+#Solicita um preço e o percentual de descoto de um produto ao usuario. Calcule o valor, e o resultado será o preço final do produto.
+preco = float(input("Digite o preço do produto: "))
+desconto = int(input("Qual a porcentagem do desconto? "))
+
+precoDesconto = preco*desconto
+ValorFinal = precoDesconto / 100
+
+print(f"O valor final do produto é: {ValorFinal}")
