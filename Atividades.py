@@ -66,8 +66,8 @@ print(f"O valor final do produto é: {ValorFinal}")
 #atividade 16
 
 #solicitando um numero inteiro e multiplicando por -1 se ele for menor que 0
-numero = int(input("Escreva um número: "))
+num = int(input("Escreva um número: "))
 
-if numero<0:
-    calculo = numero*-1
+if num<0:
+    calculo = num*-1
     print(calculo)
