@@ -28,3 +28,10 @@ string = "oio"
 inteiro = 254
 float = 20.5
 print("este é uma string {}, este um inteiro {} e este uma variavel float {}".format(string, inteiro, float))
+
+#atividade 5
+
+pt1 = "encontrei um parale"
+pt2 = "lepipedo"
+
+print((pt1+pt2))
