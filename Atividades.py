@@ -71,3 +71,12 @@ num = int(input("Escreva um número: "))
 if num<0:
     calculo = num*-1
     print(calculo)
+
+#atividade 17
+
+nome4 = input("Digite seu nome: ") #solicitando um nome
+porcao = int(input("Solicite uma quantidade de porções: ")) #solicitando uma porção
+preco_porcao = 5.90 #preço da porção
+
+if nome4 != "Jerry": #se o nome for diferente de jerry
+    print(preco_porcao * porcao) #o resultado será a multiplicação das duas variáveis
