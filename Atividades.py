@@ -80,3 +80,14 @@ preco_porcao = 5.90 #preço da porção
 
 if nome4 != "Jerry": #se o nome for diferente de jerry
     print(preco_porcao * porcao) #o resultado será a multiplicação das duas variáveis
+
+#atividade 18
+
+numero2 = int(input("Digite um número: "))
+
+if numero2 < 1000:
+ print("Este número é menor que 1000")
+if numero2 > 1000:
+ print("Obrigado!")    
+if numero2 < 10  <100  <1000:
+ print("Este número é menor que 1000, menor que 100 e menor que 10")
