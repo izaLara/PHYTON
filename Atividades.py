@@ -35,3 +35,11 @@ pt1 = "encontrei um parale"
 pt2 = "lepipedo"
 
 print((pt1+pt2))
+
+#atividade 6
+
+#solicita um numero e o resultado mostra ele multiplicado por 5
+numero = int(input("Digite um número: "))
+resultado = numero * 5
+
+print(f"Seu numero multiplicado por 5 é: {resultado}")
