@@ -43,3 +43,11 @@ numero = int(input("Digite um número: "))
 resultado = numero * 5
 
 print(f"Seu numero multiplicado por 5 é: {resultado}")
+
+#atividade 7
+
+#pergunta o nome e ano em que nasceu, em seguida apresenta o texto em print
+nome3 = input("Qual seu nome? ")
+ano2 =int(input("Em que ano você nasceu? "))
+
+print(f"Olá {nome3}, você fará {2024 - ano2} anos no final de 2024")
