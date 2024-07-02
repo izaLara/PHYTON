@@ -123,3 +123,68 @@ numero4 = int(input("Entre com um número: "))
 
 if not (numero4 < 5 or numero4 > 8): # a condição é verdadeira, com o NOT se torna falsa
     print("O número esta entre 5 e 8")
+
+# TESTE WHILE (LOOPING DE REPETIÇÃO)
+
+while True:
+    numero5 = int(input("Entre com um número ou digite -1 para parar: "))
+
+    if numero5 == -1:
+        break
+    print(numero5 ** 2)
+
+print("Programa encerrado, obrigado!")
+
+# TESTE WHILE 2
+
+while True:
+    codigo = input("Por favor, insira o PIN: ")
+
+    if codigo == "1234":
+        break
+    print("Errado!... Tente de novo.")
+
+print("PIN correto! Obrigado")
+
+# 
+
+numero7 = 5
+print("Contando")
+
+while True:
+    print(numero7)
+    numero7 = numero7 - 1
+    if numero7 > 0:
+        break
+    print("Fall")
+
+#
+
+tentativas = 0 # total de tentativas
+while True:
+    codigo2 = input("Por favor, digite seu PIN: ")
+    tentativas += 1 # a cada tentativa será inserido +1 nas tentativas
+
+    if codigo2 == "1234": #se o PIN inserido for este, o print estará correto e mostrará o segundo print
+        sucesso = True  # se o pin não estiver correto, aumentará o número das tentativas com o primeiro print
+        break
+
+    if tentativas == 3: # quando as tentativas chegarem ao número 3 aparecerá o terceiro print
+        sucesso = False
+        break
+
+    print("incorreto...tente novamente")
+if sucesso:
+    print("PIN correto inserido")
+else:
+    print("Muitas tetativas...")
+
+# TESTE LOOP COM CONDIÇAÕ
+
+numero6 = int(input("Insira um número: "))
+
+while numero6 < 10:
+    print(numero6)
+    numero6 += 1
+
+print("Execução finalizada")

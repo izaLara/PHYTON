@@ -284,7 +284,7 @@ else:
   print("Impossível")
 
 #atividade 36
-#incompleto
+#incompleta
 numero5 = int(input("Insira um número: "))
 
 if numero5:
@@ -295,11 +295,87 @@ elif numero5 and numero5:
   print("FizzBuzz.")
 
 #atividade 37
-
+#incompleta
 ano3 = int(input("Insira um ano: "))
 
-if ano3 / 4 or ano3 / 100 and 400:
+if ano3  or ano3  and 400:
   print("Esse é um ano bissexto")
 
 else:
   print("Este ano não é bissexto")
+
+
+#atividade 38
+
+while True:
+    cumprimento = input("Olá, Você quer continuar? ")
+
+    if cumprimento == "não":
+        break
+
+print("Okay, até a proxima")
+
+
+#atividade 39
+#incompleta
+from math import sqrt
+while True:
+  numero6 = int(input("Insira um número"))
+
+  if numero6 < 0:
+    break
+  print("Número inválido")
+
+  if numero6 > 0:
+    break
+  print(sqrt(numero6))
+
+print("Fim")
+
+#atividade 40
+
+numero7 = 5
+print("Contagem regressiva") #contando a partir do 5
+
+while True: 
+ print(numero7)
+ numero7 = numero7 - 1 # enquanto for verdadeiro imprimira a variavel - 1
+
+ if numero7 == 0: # entrara em looping até ser igual a zero
+  break
+ 
+print("Agora!")
+
+
+#atividade 41
+
+#Digite a senha, se a confirmação for diferente da primeira inserção, repetirá o looping
+
+while True:
+ senha = int(input("Digite uma senha: "))
+ senha2 = int(input("Confirme a senha: "))
+ if senha == senha2:
+  break
+print(int(input("Digite novamente: ")))
+
+print("Senha correta")
+    
+#ativiade 42
+
+tentativas = 0 # total de tentativas
+while True:
+   codigo2 = input("Por favor, digite seu PIN: ")
+   tentativas += 1 # a cada tentativa será inserido +1 nas tentativas
+
+   if codigo2 == "4321": #se o PIN inserido for este, o print estará correto e mostrará o segundo print
+       sucesso = True  # se o pin não estiver correto, aumentará o número das tentativas com o segundo print
+       break
+
+   print("incorreto...tente novamente")
+if sucesso:
+    print(tentativas)
+else:
+    print("Muitas tentativas...")
+
+#atividade 43
+

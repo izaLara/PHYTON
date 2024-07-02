@@ -200,9 +200,9 @@
 
 # numero5 = int(input("Insira um número: "))
 
-# if numero5:
+# if numero5 :
 #   print("Fizz")
-# elif numero5:
+# elif numero5 :
 #   print("Buzz")
 # elif numero5 and numero5:
 #   print("FizzBuzz.")
@@ -223,10 +223,123 @@
 
 #--------------
 
-ano3 = int(input("Insira um ano: "))
+# ano3 = int(input("Insira um ano: "))
 
-if ano3 / 4 and ano3 / 100 and 400:
-  print("Esse é um ano bissexto")
+# if ano3 / 4 and ano3 / 100 and 400:
+#   print("Esse é um ano bissexto")
 
+# else:
+#   print("Este ano não é bissexto")
+
+
+
+# TESTE WHILE (LOOPING DE REPETIÇÃO)
+
+# while True:
+#     numero5 = int(input("Entre com um número ou digite -1 para parar: "))
+
+#     if numero5 == -1:
+#         break
+#     print(numero5 ** 2)
+
+# print("Programa encerrado, obrigado!")
+
+# while True:
+#     codigo = input("Por favor, insira o PIN: ")
+
+#     if codigo == "1234":
+#         break
+#     print("Errado!... Tente de novo.")
+
+# print("PIN correto! Obrigado")
+
+#atividade 38
+
+# while True:
+#     cumprimento = input("Olá, Você quer continuar? ")
+
+#     if cumprimento == "não":
+#         break
+
+# print("Okay, até a proxima")
+
+#atividade 39
+
+# from math import sqrt
+
+# while True:
+#   numero6 = int(input("Insira um número: ")) #será inserido um número
+#   zero = 0
+#   raiz = sqrt(numero6)# a raiz quadrada do numero inserido
+
+#   if numero6 > zero:
+#     break
+#   print("Número inválido")
+
+#   if numero6 < zero:
+#    break
+#   print(sqrt(numero6))
+
+# atividade 40
+# numero7 = 5
+# print("Contagem regressiva") #contando a partir do 5
+
+# while True: 
+#  print(numero7)
+#  numero7 = numero7 - 1 # enquanto for verdadeiro imprimira a variavel - 1
+
+#  if numero7 == 0: # entrara em looping até ser igual a zero
+#   break
+ 
+# print("Agora!")
+
+
+#atividade 41
+
+#Digite a senha, se a confirmação for diferente da primeira inserção, repetirá o looping
+
+# while True:
+#  senha = int(input("Digite uma senha: "))
+#  senha2 = int(input("Confirme a senha: "))
+#  if senha == senha2:
+#   break
+# print(int(input("Digite novamente: ")))
+
+# print("Senha correta")
+
+#anotação teste
+
+# tentativas = 0 # total de tentativas
+# while True:
+#     codigo2 = input("Por favor, digite seu PIN: ")
+#     tentativas += 1 # a cada tentativa será inserido +1 nas tentativas
+
+#     if codigo2 == "1234": #se o PIN inserido for este, o print estará correto e mostrará o segundo print
+#         sucesso = True  # se o pin não estiver correto, aumentará o número das tentativas com o segundo print
+#         break
+
+#     if tentativas == 3: # quando as tentativas chegarem ao número 3 aparecerá o terceiro print
+#         sucesso = False
+#         break
+
+#     print("incorreto...tente novamente")
+# if sucesso:
+#     print("PIN correto inserido")
+# else:
+#     print("Muitas tetativas...")
+
+
+tentativas = 0 # total de tentativas
+while True:
+   codigo2 = input("Por favor, digite seu PIN: ")
+   tentativas += 1 # a cada tentativa será inserido +1 nas tentativas
+
+   if codigo2 == "4321": #se o PIN inserido for este, o print estará correto e mostrará o segundo print
+       sucesso = True  # se o pin não estiver correto, aumentará o número das tentativas com o segundo print
+       break
+
+   print("incorreto...tente novamente")
+if sucesso:
+    print(tentativas)
 else:
-  print("Este ano não é bissexto")
+    print("Muitas tetativas...")
