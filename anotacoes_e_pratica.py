@@ -92,4 +92,34 @@ if numero >0:
 if numero ==0:
     print("Esse numero é 0")
 
+# TESTE ELIF
 
+gol_casa = int(input("Pontuação de casa: "))
+gol_fora = int(input("Pontuação de fora: "))
+
+if gol_casa > gol_fora:
+    print("O tie de casa é capeão!")
+elif gol_fora > gol_casa:
+    print("O time de fora é campeão!")
+
+else:
+    print("Empate!")
+
+# TESTE AND (E)
+
+numero2 = int(input("Entre com um número: "))
+
+if numero2 >= 5 and numero2 <= 8:
+    print("O numero esta entre 5 e 8")
+
+# TESTE OR (OU)
+
+numero3 = int(input("Entre com um número: "))
+
+if numero3 < 5 or numero3 > 8:
+    print("O número esta entre 5 e 8")
+
+numero4 = int(input("Entre com um número: "))
+
+if not (numero4 < 5 or numero4 > 8): # a condição é verdadeira, com o NOT se torna falsa
+    print("O número esta entre 5 e 8")
