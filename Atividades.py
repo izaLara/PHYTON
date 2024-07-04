@@ -56,6 +56,17 @@ precoDesconto = preco*desconto
 ValorFinal = precoDesconto / 100
 print(f"O valor final do produto é: {ValorFinal}")
 
+
+ #atividade 10
+
+Preco2 = float(input("Qual o preço do seu produto? "))
+Porcentagem1 = float(input("digite a porcentagem do produto: "))
+
+desconto = preco * Porcentagem1 / 100
+
+print("O preço do produto é {} e o preço final com o desconto é de: {}".format(desconto, Preco2 + desconto))
+
+
  #atividade 16
 
 #solicitando um numero inteiro e multiplicando por -1 se ele for menor que 0
@@ -377,5 +388,33 @@ if sucesso:
 else:
     print("Muitas tentativas...")
 
-#atividade 43
+#atividade 45
 
+numero9 = int(input("Digite um número: "))
+print("Você está pronto?")
+
+while numero9 >= 0:
+ print(numero9)
+print("Agora!")
+
+#atividade 47
+
+numero11 = int(input("Digite um número: "))
+numero_inicial = 1
+
+#enquanto o numero inicial for menor ou igual ao número digitado, será printado o número inicial multiplicado por 2
+while numero_inicial <= numero11: 
+  print(numero_inicial)
+  numero_inicial *= 2
+
+
+#atividade 50
+
+#será solicitado uma senha até que a soma de todos os números seja menor ou igual a 100.
+soma = 0
+
+while soma <= 100: 
+ numeros = int(input("Digite uma série de números: ")) 
+ soma += numeros
+
+ print("A soma será: ", soma)   

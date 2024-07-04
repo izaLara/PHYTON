@@ -183,8 +183,24 @@ else:
 
 numero6 = int(input("Insira um número: "))
 
-while numero6 < 10:
+while numero6 < 10: # enquanto o numero for menor que dez, printará o resultado da variável
     print(numero6)
     numero6 += 1
 
 print("Execução finalizada")
+
+# EXPRESSÕES REGULARES (BIBLIOTECA)
+
+import re
+
+print(re.search("[A-Z]", "Senha")) #procurará na bibioteca a letra maiúscula na palavra 'Senha'
+print(re.search("[a-z]", "Senha")) #procurará na bibioteca as letras minúscula na palavra 'Senha'
+print(re.search("[0-9]", "Senha")) #procurará na bibioteca números de 0 a 9 na palavra 'Senha'
+
+# BIBLIOTECA DE NÚMERO RANDÔMICOS
+
+import random
+
+numero_secreto = random.randint(1,100) #será printado um número aleatório de 1 a 100
+
+print(numero_secreto)

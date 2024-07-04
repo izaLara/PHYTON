@@ -328,18 +328,32 @@
 # else:
 #     print("Muitas tetativas...")
 
+ #atividade 42
 
-tentativas = 0 # total de tentativas
+# tentativas = 0 # total de tentativas
+# while True:
+#    codigo2 = input("Por favor, digite seu PIN: ")
+#    tentativas += 1 # a cada tentativa será inserido +1 nas tentativas
+
+#    if codigo2 == "4321": #se o PIN inserido for este, o print estará correto e mostrará o segundo print
+#        sucesso = True  # se o pin não estiver correto, aumentará o número das tentativas com o segundo print
+#        break
+
+#    print("incorreto...tente novamente")
+# if sucesso:
+#     print(tentativas)
+# else:
+#     print("Muitas tetativas...")
+
+
+    #atividade 51
+
+import re
+
 while True:
-   codigo2 = input("Por favor, digite seu PIN: ")
-   tentativas += 1 # a cada tentativa será inserido +1 nas tentativas
+  numero10 =input("Insira uma senha de no mínimo 8 dígitos: ")
 
-   if codigo2 == "4321": #se o PIN inserido for este, o print estará correto e mostrará o segundo print
-       sucesso = True  # se o pin não estiver correto, aumentará o número das tentativas com o segundo print
-       break
-
-   print("incorreto...tente novamente")
-if sucesso:
-    print(tentativas)
-else:
-    print("Muitas tetativas...")
+  if numero10 == numero10:
+   print(re.search("[A-Z]" and "[a-z]" and"[!_-=]", numero10))
+   break
+  print("Senha permitida!")
