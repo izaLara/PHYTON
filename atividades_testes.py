@@ -348,12 +348,45 @@
 
     #atividade 51
 
-import re
+# import re
 
-while True:
-  numero10 =input("Insira uma senha de no mínimo 8 dígitos: ")
+# while True:
+#   numero10 =input("Insira uma senha de no mínimo 8 dígitos: ")
 
-  if numero10 == numero10:
-   print(re.search("[A-Z]" and "[a-z]" and"[!_-=]", numero10))
-   break
-  print("Senha permitida!")
+#   if numero10 == numero10:
+#    print(re.search("[A-Z]" and "[a-z]" and"[!_-=]", numero10))
+#    break
+#   print("Senha izapermitida!")
+
+   #atividade 54
+
+# while True:
+ 
+#  palavra = (input("Escreva uma palavra: "))
+#  palavra2 = (input("Escreva outra palavra: "))
+
+#  if palavra == palavra2:
+#   print("Palavra correta")
+  
+#  if palavra != palavra2:
+#   print(input("Digite outra palavra: "))
+#  break
+
+
+ #atividade PRATICA
+
+# string = input("Digite uma string: ")
+# string2 = input("Digite outra string: ")
+
+# if len(string2):
+#    print("As strings são igualmente longas")
+
+#
+
+string_entrada2 = input("Digite uma string: ")
+
+print(string_entrada2[0])
+print(string_entrada2[1])
+print(string_entrada2[2])
+
+print("Ultimo caracter" + string_entrada2[len(string_entrada2)] - 2)

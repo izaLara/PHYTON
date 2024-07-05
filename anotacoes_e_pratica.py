@@ -204,3 +204,30 @@ import random
 numero_secreto = random.randint(1,100) #será printado um número aleatório de 1 a 100
 
 print(numero_secreto)
+
+# WHILE COM STRING
+#irá concatenar as variaveis e printará os resultado
+inicio = "ex"
+fim = "emplo"
+palavra2 = inicio + fim
+print(palavra2)
+
+# repetirá a palavra 3 vezes
+palavra = "banana"
+print(palavra * 3)
+
+#
+
+string_entrada = input("Digite uma string: ")
+print(string_entrada) #imprime a string
+print("-" * len(string_entrada)) #imprime uma linha de traços com o mesmo comprimento da string digitada
+
+#
+
+string_entrada2 = input("Digite uma string: ")
+
+print(string_entrada2[0])
+print(string_entrada2[2])
+print(string_entrada2[3])
+
+print("Ultimo caracter" , string_entrada2[len(string_entrada2)] - 1)

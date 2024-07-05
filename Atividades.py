@@ -417,4 +417,24 @@ while soma <= 100:
  numeros = int(input("Digite uma série de números: ")) 
  soma += numeros
 
- print("A soma será: ", soma)   
+ print("A soma será: ", soma)
+
+ #atividade 54
+while True:
+ palavra = str(input("Escreva uma palavra: "))
+ palavra2 = str(input("Escreva outra palavra: "))
+
+ if palavra != palavra2:
+  print("Digite outra palavra: ")
+
+ if palavra == palavra2:
+   break
+ 
+ #atividade PRATICA
+
+ string = input("Digite uma string: ")
+ string2 = input("Digite outra string: ")
+
+ if len(string2) < len(string2) or len(string2) > len(string):
+   print("As strings não são igualmente longas")
+   
